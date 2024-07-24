@@ -11,3 +11,6 @@ sky:
     access-key-id: LTAI5tPJ7W9ykuTqhgmJqKGB
     access-key-secret: UMkYbmJvgRexKLzYbeSUmnIKSZMxTb
     bucket-name: haru-1
+  redis:
+    host: localhost
+    port: 6379
