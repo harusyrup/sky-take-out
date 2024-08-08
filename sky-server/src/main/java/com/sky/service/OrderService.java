@@ -55,4 +55,8 @@ public interface OrderService {
 
 
     PageResult conditionSearch(OrdersPageQueryDTO ordersPageQueryDTO);
+
+    void reminder(Long id);
+
+    PageResult pageQuery4User(int page, int pageSize, Integer status);
 }
